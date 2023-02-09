@@ -5,8 +5,8 @@
   - Eclipse or Ant
   
 - Usage:
-  1 Download this code
-  2 Compile and run the code:
+  1. Download this code
+  2. Compile and run the code:
     A. Using Eclipse:
       - Just run the ComponentGraph.java file
     B. Using ant:
