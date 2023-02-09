@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="create_run_jar" name="Create Runnable Jar for Project CGraph">
+    <!--this file was created by Eclipse Runnable JAR Export Wizard-->
+    <!--ANT 1.7 is required                                        -->
+    <!--define folder properties-->
+    <property name="dir.buildfile" value="."/>
+    <property name="dir.workspace" value="/home/alexandre/eclipse-workspace"/>
+    <property name="dir.jarfile" value="${dir.buildfile}"/>
+    <target name="create_run_jar">
+        <jar destfile="${dir.jarfile}/Hypertree.jar" filesetmanifest="mergewithoutmain">
+            <manifest>
+                <attribute name="Main-Class" value="trees.ComponentGraph"/>
+                <attribute name="Class-Path" value="."/>
+            </manifest>
+            <fileset dir="/mnt/62cfea67-8e29-481a-be33-c03209b7ed4f/Dropbox/workspace/CGraph011116/bin"/>
+        </jar>
+    </target>
+</project>
